@@ -15,7 +15,7 @@
 						  "Name":"ADVANCED",
 						  "PhaseType":4,
 						  "BuildParams":"PHASE=SUITE_ADVANCED",
-						  "Order":0,
+						  "Order":1,
 						  "Parallelism":1,
 						  "ContainerImage":"duplocloud/zbuilder:selenium-v0"
 					   }
