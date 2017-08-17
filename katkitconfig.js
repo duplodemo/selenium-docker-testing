@@ -20,6 +20,20 @@
 						  "ContainerImage":"duplocloud/zbuilder:selenium-v0"
 					   }
 					]
-	  }
+	  },
+          {
+                "EnvName": "frontend",
+                "LocalFleet": "true",
+                "WorkFlow" : [
+                                           {
+                                                  "Name":"ADVANCED",
+                                                  "PhaseType":4,
+                                                  "BuildParams":"PHASE=SUITE_ADVANCED",
+                                                  "Order":1,
+                                                  "Parallelism":1,
+                                                  "ContainerImage":"duplocloud/zbuilder:selenium-v0"
+                                           }
+                                        ]
+          }
 ]
 
