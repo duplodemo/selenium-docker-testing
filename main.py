@@ -32,4 +32,4 @@ def query_google(keywords):
 
 
 if __name__ == '__main__':
-    query_google('test')
+    query_google 'CI-CD')
